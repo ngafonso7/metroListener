@@ -1,0 +1,27 @@
+<linhas>
+	<linha>
+	    <id>1</id>
+	    <nome>Linha 1 - AzuL</nome>
+	    <icone>azul</icone>
+	</linha>
+	<linha>
+	    <id>2</id>
+	    <nome>Linha 2 - Verde</nome>
+	    <icone>verde</icone>
+	</linha>
+	<linha>
+	    <id>3</id>
+	    <nome>Linha 3 - Vermelha</nome>
+	    <icone>vermelha</icone>
+	</linha>
+	<linha>
+	    <id>4</id>
+	    <nome>Linha 4 - Amarela</nome>
+	    <icone>amarela</icone>
+	</linha>
+	<linha>
+	    <id>5</id>
+	    <nome>Linha 5 - Lilas</nome>
+	    <icone>lilas</icone>
+	</linha>
+</linhas>
