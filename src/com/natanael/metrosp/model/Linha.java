@@ -5,6 +5,7 @@ public class Linha {
 	private int id;
 	private String nome;
 	private String icone;
+	private int status;
 	
 	public int getId() {
 		return id;
@@ -23,6 +24,12 @@ public class Linha {
 	}
 	public void setIcone(String icone) {
 		this.icone = icone;
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
 	}
 	
 }

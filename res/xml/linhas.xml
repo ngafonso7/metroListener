@@ -24,4 +24,9 @@
 	    <nome>Linha 5 - Lilas</nome>
 	    <icone>lilas</icone>
 	</linha>
+	<linha>
+	    <id>9</id>
+	    <nome>Linha 9 - Esmeralda</nome>
+	    <icone>esmeralda</icone>
+	</linha>
 </linhas>
