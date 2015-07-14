@@ -9,44 +9,57 @@
     tools:context="com.natanael.metrosp.activity.Main" >
 
     <!--  -->
+
+    
     <TextView
         android:id="@+id/main_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
         android:text="@string/main_title"
         android:textAlignment="center"
-        android:textSize="25sp"/>
+        android:textSize="23sp" />
     
-    <ProgressBar 
+    <!--<ProgressBar 
         android:id="@+id/progressBar"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/main_title"/>
-    
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
     <TextView
         android:id="@+id/progressText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/update_line_info"
-        android:layout_below="@id/main_title"
-        android:layout_toRightOf="@id/progressBar"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/progressBar"
         android:gravity="center_vertical"
-        android:textSize="15sp"/>
-    
+        android:text="@string/update_line_info"
+        android:textSize="15sp"/>-->
+
+	<TextView
+        android:id="@+id/lastUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/main_title"
+        android:text=""
+        android:textSize="15sp" />
+
     <ListView
         android:id="@+id/listLinhas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/progressText"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/lastUpdate"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/list_border"
-        android:paddingLeft="17dp"
-        android:paddingRight="17dp"
         android:paddingTop="4dip"
-        android:paddingBottom="4dip"/>
-    	
-
+        android:paddingBottom="4dip"
+        android:scrollbarStyle="outsideOverlay"/>
+    
 </RelativeLayout>

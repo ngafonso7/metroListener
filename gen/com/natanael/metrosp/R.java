@@ -24,43 +24,66 @@ public final class R {
     public static final class drawable {
         public static final int amarela=0x7f020000;
         public static final int azul=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int lilas=0x7f020003;
-        public static final int list_border=0x7f020004;
-        public static final int metro=0x7f020005;
-        public static final int statusamarelo=0x7f020006;
-        public static final int statuserro=0x7f020007;
-        public static final int statusverde=0x7f020008;
-        public static final int statusvermelho=0x7f020009;
-        public static final int verde=0x7f02000a;
-        public static final int vermelha=0x7f02000b;
+        public static final int cptm=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int lilas=0x7f020004;
+        public static final int list_border=0x7f020005;
+        public static final int metro=0x7f020006;
+        public static final int refresh=0x7f020007;
+        public static final int statusamarelo=0x7f020008;
+        public static final int statuserro=0x7f020009;
+        public static final int statusverde=0x7f02000a;
+        public static final int statusvermelho=0x7f02000b;
+        public static final int verde=0x7f02000c;
+        public static final int vermelha=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f090008;
+        public static final int action_add_line=0x7f09000b;
+        public static final int action_refresh=0x7f09000d;
+        public static final int action_settings=0x7f09000c;
+        public static final int cancelButton=0x7f090009;
         public static final int icone=0x7f090005;
+        public static final int lastUpdate=0x7f090001;
         public static final int linha=0x7f090004;
-        public static final int listLinhas=0x7f090003;
+        public static final int listLinhas=0x7f090002;
+        public static final int listhiddenlines=0x7f09000a;
+        public static final int loadingBar=0x7f090007;
+        public static final int main_frame=0x7f090003;
         public static final int main_title=0x7f090000;
-        public static final int nome=0x7f090007;
-        public static final int progressBar=0x7f090001;
-        public static final int progressText=0x7f090002;
+        public static final int nome=0x7f090008;
         public static final int status=0x7f090006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int itemlistalinhas=0x7f030001;
+        public static final int activity_settings=0x7f030001;
+        public static final int itemlistalinhas=0x7f030002;
+        public static final int itemlisthiddenline=0x7f030003;
+        public static final int listddlines=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060002;
+        public static final int action_bar_refresh_button=0x7f060008;
         public static final int app_name=0x7f060000;
-        public static final int handler_error_connection_null_response=0x7f060006;
-        public static final int handler_error_timeout_connection=0x7f060005;
-        public static final int hello_world=0x7f060001;
-        public static final int main_title=0x7f060003;
-        public static final int update_line_info=0x7f060004;
+        public static final int cancel=0x7f06000f;
+        public static final int confirm_remove_line=0x7f06000e;
+        public static final int first_load_line=0x7f06000d;
+        public static final int handler_error_connection_null_response=0x7f060011;
+        public static final int handler_error_no_connection_active=0x7f060012;
+        public static final int handler_error_timeout_connection=0x7f060010;
+        public static final int last_update_time=0x7f060013;
+        public static final int list_empty=0x7f06000b;
+        public static final int main_title=0x7f060009;
+        public static final int menu_action_add_line=0x7f060001;
+        public static final int menu_action_settings=0x7f060002;
+        public static final int no_hidden_line=0x7f06000c;
+        public static final int settings_menu_auto_update=0x7f060003;
+        public static final int settings_menu_auto_update_enable=0x7f060004;
+        public static final int settings_menu_auto_update_enable_hint=0x7f060005;
+        public static final int settings_menu_auto_update_time=0x7f060006;
+        public static final int settings_menu_auto_update_time_hint=0x7f060007;
+        public static final int update_line_info=0x7f06000a;
     }
     public static final class style {
         /** 
@@ -89,5 +112,6 @@ public final class R {
     }
     public static final class xml {
         public static final int linhas=0x7f040000;
+        public static final int settingsmenu=0x7f040001;
     }
 }

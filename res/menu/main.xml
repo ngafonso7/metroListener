@@ -2,10 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.natanael.metrosp.Main" >
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+    <item android:id="@+id/action_add_line" android:title="@string/menu_action_add_line" android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/menu_action_settings" android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_refresh" android:title="@string/action_bar_refresh_button" android:icon="@drawable/refresh" android:showAsAction="ifRoom|withText"
+    />
+    
 
 </menu>

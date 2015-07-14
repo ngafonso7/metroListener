@@ -1,11 +1,14 @@
 package com.natanael.metrosp.model;
 
-public class Linha {
+public class Linha implements Comparable{
 
 	private int id;
 	private String nome;
 	private String icone;
+	private String descricaoFalha;
 	private int status;
+	
+	private boolean isLoading;
 	
 	public int getId() {
 		return id;
@@ -30,6 +33,24 @@ public class Linha {
 	}
 	public void setStatus(int status) {
 		this.status = status;
+	}
+	public String getDescricaoFalha() {
+		return descricaoFalha;
+	}
+	public void setDescricaoFalha(String descricaoFalha) {
+		this.descricaoFalha = descricaoFalha;
+	}
+	public boolean isLoading() {
+		return isLoading;
+	}
+	public void setLoading(boolean isLoading) {
+		this.isLoading = isLoading;
+	}
+	@Override
+	public int compareTo(Object arg0) {
+		int id = this.id;
+		int nextId = ((Linha) arg0).getId();
+		return id - nextId;
 	}
 	
 }

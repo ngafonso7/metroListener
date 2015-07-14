@@ -2,12 +2,30 @@
 <resources>
 
     <string name="app_name">Metro SP</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="menu_action_add_line">Adicionar Linha</string>
+    <string name="menu_action_settings">Configurações</string>
+    
+    <string name="settings_menu_auto_update">Atualização</string>
+    <string name="settings_menu_auto_update_enable">Atualização automática</string>
+    <string name="settings_menu_auto_update_enable_hint">Ativar atualização automática</string>
+    <string name="settings_menu_auto_update_time">Intervalo de atualização</string>
+    <string name="settings_menu_auto_update_time_hint">%s minuto(s)</string>
+    
+    <string name="action_bar_refresh_button">Atualizar</string>
+    
     <string name="main_title">Situação Metro/CPTM SP</string>
     <string name="update_line_info">Atualizando informções de linha</string>
+    <string name="list_empty">Nenhuma linha \nselecionanda</string>
+    <string name="no_hidden_line">Todas as linhas estão listadas</string>
+    <string name="first_load_line">Atualize antes de adicionar uma linha</string>
+    <string name="confirm_remove_line">Deseja mesmo remover esta linha?</string>
+    <string name="cancel">Cancelar</string>
     
     <string name="handler_error_timeout_connection">Erro ao atualizar informações de linha</string>
     <string name="handler_error_connection_null_response">Erro ao receber as informações de linha</string>
-
+	<string name="handler_error_no_connection_active">Sem conexão de internet</string>
+	
+	<string name="last_update_time">Ultima atualização:</string>
+	
 </resources>

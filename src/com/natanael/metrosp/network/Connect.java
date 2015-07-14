@@ -30,8 +30,8 @@ public class Connect {
 		String urlRequest = new Constantes().getUrl(url);
 		
 		HttpParams httpParams= new BasicHttpParams();
-		HttpConnectionParams.setConnectionTimeout(httpParams, 2000);
-		HttpConnectionParams.setSoTimeout(httpParams, 5000);
+		HttpConnectionParams.setConnectionTimeout(httpParams, 10000);
+		HttpConnectionParams.setSoTimeout(httpParams, 15000);
 		
 		httpclient = new DefaultHttpClient(httpParams);
 		httpget = new HttpGet(urlRequest);
